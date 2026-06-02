@@ -1,0 +1,9 @@
+{
+  "name": "tabungan-haji-web",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix ./fe-odp run dev",
+    "install:fe": "npm --prefix ./fe-odp install",
+    "install": "npm install && npm run install:fe"
+  }
+}
